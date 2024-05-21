@@ -65,8 +65,8 @@ async function createRecord() {
     modelo: modelo.value,
     color: color.value,
     placa: placa.value,
-    categoriaId: categoriaId.value,
-    usuarioId: usuarioId.value
+    categoriaId: {id:categoriaId.value},
+    usuarioId: {id:usuarioId.value}
   };
 
   try {
